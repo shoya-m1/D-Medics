@@ -1,0 +1,459 @@
+:root {
+  --color1: rgba(49, 118, 239, 1);
+  --color2: rgba(90, 105, 230, 1);
+  --bg-gradient: linear-gradient(to bottom, rgba(49, 118, 239, 1), rgba(90, 105, 230, 1));
+}
+
+body {
+  background-color: blue;
+}
+main {
+  max-width: 1367px;
+  overflow: hidden;
+  /* background-color: blue; */
+  /* height: 300vh; */
+  position: relative;
+}
+
+.navbar {
+  background-color: white;
+}
+.tombol-navbar {
+  display: none;
+}
+.style {
+  /* z-index: 1; */
+}
+.container button {
+  outline: none;
+  background-color: white;
+}
+/* perbaikan */
+
+.nav-link {
+  margin: 0px 10px;
+  font-weight: 600;
+  color: blue;
+}
+/* /perbaikan */
+.contact {
+  width: 115px;
+  height: 37px;
+  font-size: 12px;
+  background: var(--bg-gradient);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.login {
+  width: 100px;
+  height: 37px;
+  color: var(--color1);
+  font-size: 13px;
+  border-radius: 10px;
+  border: solid 2px var(--color1);
+  margin: 0px 5px;
+}
+.login2{
+  width: 200px;
+  height: 37px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.login:hover{
+  color: white;
+  background: var(--color2);
+}
+header {
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  /* background-color: red;  */
+}
+.sign-up:hover{
+  cursor: pointer;
+}
+.collapse div a{
+  width: 100px;
+  margin: auto;
+
+}
+.navbar-nav a:hover{
+  font-weight: 700;
+}
+.gelombang {
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-image: url(Asset/bg-header.png); */
+  width: 100%;
+  /* height: 100%; */
+  opacity: 55%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+}
+.bg-gelombang {
+  width: 57%;
+  top: 20px;
+  height: 650px;
+  rotate: 1deg;
+  z-index: -10;
+}
+header span {
+  width: 50%;
+  left: 30%;
+  filter: blur(150px);
+  top: 60px;
+  opacity: 50%;
+  height: 250px;
+  rotate: 100deg;
+  z-index: -5;
+  /* filter: blur(30px); */
+  background-color: rgba(107, 0, 177, 0.931);
+  /* border-radius: 100%; */
+}
+.doctor {
+  /* float: right; */
+  right: 0;
+  margin-top: 80px;
+  width: 500px;
+  height: 540px;
+  z-index: -1;
+}
+.content {
+  width: 582px;
+  margin-top: 100px;
+  margin-left: 80px;
+  
+  z-index: 5;
+}
+.content b {
+  line-height: 60px;
+  font-size: 50px;
+  width: 96%;
+}
+.content t {
+  font-size: 18px;
+}
+.book button {
+  width: 206px;
+  height: 53px;
+  font-weight: 500;
+  border-radius: 10px;
+  background: var(--bg-gradient);
+}
+.book img {
+  width: 45px;
+  transition: 0.5s;
+}
+.book img:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.gelombang-2 {
+  width: 100%;
+  top: 5px;
+  height: 800px;
+  z-index: -1;
+}
+.book a{
+  background-color: var(--color1);
+  padding: 15px 17px;
+  font-size: 15px;
+  font-weight: 600px;
+  border-radius: 10px;
+  text-decoration: none;
+  
+}
+.follow {
+  margin: 130px 0px 0px 200px;
+}
+.follow t {
+  margin-left: 15px;
+}
+.follow b {
+  margin-left: 15px;
+}
+.support {
+  width: 100%;
+  transform: rotate(-2deg);
+  height: 110px;
+}
+.support img {
+  margin: 5px 20px 5px 20px;
+  width: 15%;
+  height: 70%;
+  transition: 0.3s;
+}
+.company {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 255, 0.124);
+}
+.company span {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(27, 27, 255, 0.144);
+}
+.support img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about-us img:nth-child(2) {
+  width: 400px;
+  margin: 100px;
+}
+.about-us img:nth-child(3) {
+  width: 10%;
+  top: 1500px;
+  left: 400px;
+  z-index: -1;
+}
+.judul-about {
+  display: none;
+}
+
+.about-us div {
+  width: 511px;
+  float: right;
+  margin: 80px 50px 0px 0px;
+}
+.about-us div t {
+  font-size: 18px;
+}
+.about-us button {
+  width: 160px;
+  height: 60px;
+  background: var(--bg-gradient);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.service{
+  padding-top: 80px;
+}
+.isi-service div {
+  border-radius: 10px;
+}
+.isi-service img {
+  width: 84px;
+  height: 76px;
+  margin-left: 30px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+  /* margin-left: 25px; */
+  margin-bottom: 25px;
+}
+.card-1, .card-4{
+  margin-left: 25px;
+}
+.card-3, .card-6{
+  margin-right: 25px;
+}
+
+.service-hover {
+  background-color: white;
+  transition: 0.3s;
+}
+.service-hover:hover {
+  background-color: var(--color1);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.service button {
+  width: 160px;
+  height: 50px;
+  background: var(--bg-gradient);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 12px 34px;
+  text-align: center;
+}
+.choose div {
+  margin-top: 100px;
+}
+.choose div img {
+  width: 8%;
+  margin-bottom: 15px;
+}
+.choose div p {
+  margin-left: 80px;
+  text-align: justify;
+  margin-top: -10px;
+}
+.choose button {
+  width: 190px;
+  height: 50px;
+  background: var(--bg-gradient);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  /* padding: 13px 33px; */
+  text-align: center;
+}
+.doctors button {
+  right: 50px;
+  margin-top: 15px;
+  padding: 5px 20px;
+  font-size: 14px;
+  background-color: white;
+  border: solid 1px var(--color1);
+}
+.doctors-img div:nth-child(1) {
+  margin: 20px 0px 0px 80px;
+}
+.doctors-img div:nth-child(2) {
+  padding: 100px 0px 0px 50px;
+}
+.doctors-img div:nth-child(3) {
+  margin: 200px 25px 0px 75px;
+}
+.review {
+  width: 100%;
+  height: 700px;
+  background-image: url(Asset/bg-rivew.png);
+}
+.style-review {
+  margin: 100px;
+}
+.review b {
+  font-size: 40px;
+  margin: 120px 280px 0px;
+}
+#carouselExampleDark {
+  width: 50%;
+  float: right;
+}
+.carousel-item img:nth-child(1) {
+  width: 11%;
+  margin-left: 15px;
+}
+.carousel-item img:nth-child(2) {
+  width: 7%;
+  margin-top: 120px;
+  margin-left: 30px;
+}
+.carousel-item img:nth-child(3) {
+  width: 7%;
+  bottom: 10px;
+  right: 35px;
+}
+
+.carousel-item b {
+  font-size: 27px;
+  margin: 30px 0px 10px 105px;
+}
+.carousel-item div .Bintang {
+  width: 24%;
+  margin: 0px 0px 10px 100px;
+}
+.carousel-item div p {
+  font-size: 20px;
+}
+.tombol button {
+  /* position: absolute; */
+  margin-top: 430px;
+}
+.blog{
+  padding-top:70px;
+}
+.card1 p{
+  text-align: justify;
+}
+.card1 b{
+  font-size: 18px;
+}
+#appointment{
+  padding: 70px 70px 30px 70px;
+}
+.appointment div input{
+  outline: none;
+  border: none;
+}
+.text-area{
+  width: 85%;
+}
+.text-area textarea{
+  padding:10px 0px 150px 15px ;
+}
+.submit button{
+  border-radius: 10px;
+  background-color: var(--color1);
+}
+.subcribe{
+  background: url(Asset/bgsubcribe.png);
+  height: 300px;
+  width: 100%;
+}
+.subcribe img:nth-child(2){
+  right: 0;
+  height: 300px;
+  
+}
+.subcribe button{
+  border-radius: 10px;
+  background-color: var(--color1);
+}
+.isi-subcribe div{
+  margin-top: 20px;
+  height: 70px; 
+  border-radius: 10px;
+}
+.isi-subcribe div p{
+  padding: 20px;
+}
+.isi-subcribe{
+  width: 700px;
+  z-index: 10;
+  padding: 50px 0px 0px 80px;
+}
+footer{
+  height: 430px;
+  width: 100%;
+  background-color: rgba(34, 40, 72, 1);
+}
+.footer{
+  padding:80px 0px 0px 85px;
+}
+.isi-footer{
+  margin: 30px 0px 0px 30px;
+}
+.footer1{
+  width: 313px;
+}
+.isi-footer p{
+  margin-bottom: 12px;
+  width: 196px;
+}
+.isi-footer p:hover{
+  color: var(--color1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.social-media i{
+  border-radius: 100%;
+  background-color: white;
+  color: rgba(34, 40, 72, 1);
+}
+.social-media i:hover{
+  background-color: var(--color1);
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .line-footer{
+  width: 100%;
+  margin-top: 40px;
+  height: 5px;
+}
+

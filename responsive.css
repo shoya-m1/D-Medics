@@ -1,0 +1,501 @@
+@media screen and (max-width: 768px) {
+  .tombol-navbar {
+    display: flex;
+  }
+  .gelombang {
+    height: 200vh;
+    /* padding-top: 100px; */
+    width: 130%;
+  }
+  .bg-gelombang {
+    width: 125%;
+    height:800px;
+  }
+  .content {
+    margin-left: 60px;
+    margin-top: 20%;
+  }
+  .content b {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .content t {
+    font-size: 13px;
+  }
+  .book a {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .doctor {
+    top: 330px;
+    width: 380;
+    height: 430;
+  }
+  .follow {
+    margin-top: 100vh;
+  }
+  .collapse div a{
+    margin-left:10px ;
+  }
+  .gelombang-2 {
+    top: 450px;
+    width: 200%;
+  }
+
+  .support img {
+    width: 18%;
+    height: 50%;
+    margin: 10px;
+  }
+  .support img:nth-child(2) {
+    height: 45%;
+  }
+  .support img:nth-child(5) {
+    height: 1%;
+  }
+  .about-us{
+    padding-top: 70px;
+  }
+  .about-us img:nth-child(2) {
+    width: 390px;
+    margin: 30px 120px;
+  }
+  .about-us img:nth-child(3) {
+    width: 18%;
+    top: 2200px;
+    left: 400px;
+    z-index: -1;
+  }
+  .judul-about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .about-us div {
+    margin: auto;
+    width: 100%;
+    padding: 70px;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+  }
+  .about-us div b {
+    display: none;
+  }
+  .about-us button {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .about-us div t {
+    font-size: 16px;
+  }
+  
+  .card-1, 
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    margin: 0px 50px 15px;
+    border-radius: 10px;
+  }
+  
+  .judul-service p {
+    padding: 7px;
+  }
+  .choose div {
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+  }
+  .doctors {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .doctors-img div:nth-child(1) {
+    margin: 30px 130px;
+  }
+  .doctors-img div:nth-child(2) {
+    padding: 20px 130px;
+  }
+  .doctors-img div:nth-child(3) {
+    margin: 30px 120px;
+  }
+  .review {
+    background-position: right;
+  }
+  .style-review {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .review b {
+    font-size: 25px;
+    margin: 120px;
+  }
+  #carouselExampleDark {
+    width: 100%;
+    /* margin: auto; */
+  }
+  .carousel-item img:nth-child(1) {
+    width: 9%;
+    margin-left: 30px;
+  }
+  .carousel-item img:nth-child(2) {
+    width: 5%;
+    margin-left: 45px;
+  }
+  .carousel-item img:nth-child(3) {
+    width: 5%;
+    right: 40px;
+  }
+  .carousel-item b {
+    font-size: 23px;
+    margin: 30px 0px 10px 105px;
+  }
+  .carousel-item div .Bintang {
+    width: 20%;
+    /* height: 50%; */
+    margin: 0px 0px 10px 100px;
+  }
+  .carousel-item div p {
+    font-size: 15px;
+  }
+  .tombol button {
+    margin-top: 340px;
+  }
+  .card-content{
+    flex-direction: column;
+  }
+  .card1{
+    margin-inline: 40px;
+    margin-top: 50px;
+  }
+  #appointment{
+    padding: 70px 40px 30px 40px;
+  }
+  .appointment{
+    flex-direction: column;
+    
+  }
+  .appointment div{
+    width: 100%;
+  }
+  .text-area{
+    width: 100%;
+  }
+  .subcribe{
+    height: 280px;
+  }
+  .subcribe img:nth-child(2){
+    height: 160px;
+  }
+  .isi-subcribe{
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 0px 30px;
+  }
+  .isi-subcribe div{
+    margin-top: 50px;
+    height: 65px; 
+    border-radius: 10px;
+  }
+  .isi-subcribe div p{
+    padding: 18px;
+  }
+  footer{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(34, 40, 72, 1);
+  }
+  .footer{
+    flex-direction: column;
+    padding: 35px;
+    
+  }
+  .isi-footer{
+    margin: 30px 0px 0px 5px;
+  }
+  
+  .isi-footer p:hover{
+    color: var(--color1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .social-media i{
+    border-radius: 100%;
+    background-color: white;
+    color: rgba(34, 40, 72, 1);
+  }
+  .social-media i:hover{
+    background-color: var(--color1);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  footer .line-footer{
+    width: 100%;
+    height: 5px;
+  }
+  
+}
+
+
+@media screen and (max-width: 391px) {
+  .tombol-navbar {
+    display: flex;
+  }
+  .gelombang {
+    height: 900px;
+    width: 200%;
+  }
+  .bg-gelombang {
+    width: 125%;
+    height:600px;
+  }
+  .content {
+    margin-left: 10px; 
+    margin-top: 20%;
+  }
+  .content b {
+    font-size: 25px;
+    width: 47%;
+    line-height: 30px;
+  }
+  .content t {
+    font-size: 12px;
+  }
+  .book a {
+    width: 20px;
+    height: 10px;
+    font-size: 12px;
+  }
+  .doctor {
+    top: 330px;
+    width: 380px;
+    display: none;
+    height: 430px;
+  }
+  .follow {
+    margin-top: 100vh;
+  }
+  .collapse div a{
+    margin-left:10px ;
+  }
+  .gelombang-2 {
+    top: 450px;
+    width: 200%;
+  }
+
+  .support img {
+    width: 18%;
+    height: 50%;
+    margin: 10px;
+  }
+  .support img:nth-child(2) {
+    height: 45%;
+  }
+  .support img:nth-child(5) {
+    height: 1%;
+  }
+  .about-us{
+    padding-top: 70px;
+  }
+  .about-us img:nth-child(2) {
+    width: 390px;
+    margin: 30px 120px;
+  }
+  .about-us img:nth-child(3) {
+    width: 18%;
+    top: 1900px;
+    left: 400px;
+    z-index: -1;
+  }
+  .judul-about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .about-us div {
+    margin: auto;
+    width: 100%;
+    padding: 70px;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+  }
+  .about-us div b {
+    display: none;
+  }
+  .about-us button {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .about-us div t {
+    font-size: 16px;
+  }
+  
+  .card-1, 
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    margin: 0px 50px 15px;
+    border-radius: 10px;
+  }
+  
+  .judul-service p {
+    padding: 7px;
+  }
+  .choose div {
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+  }
+  .doctors {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .doctors-img div:nth-child(1) {
+    margin: 30px 130px;
+  }
+  .doctors-img div:nth-child(2) {
+    padding: 20px 130px;
+  }
+  .doctors-img div:nth-child(3) {
+    margin: 30px 120px;
+  }
+  .review {
+    background-position: right;
+  }
+  .style-review {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .review b {
+    font-size: 25px;
+    margin: 120px;
+  }
+  #carouselExampleDark {
+    width: 100%;
+    /* margin: auto; */
+  }
+  .carousel-item img:nth-child(1) {
+    width: 9%;
+    margin-left: 30px;
+  }
+  .carousel-item img:nth-child(2) {
+    width: 5%;
+    margin-left: 45px;
+  }
+  .carousel-item img:nth-child(3) {
+    width: 5%;
+    right: 40px;
+  }
+  .carousel-item b {
+    font-size: 23px;
+    margin: 30px 0px 10px 105px;
+  }
+  .carousel-item div .Bintang {
+    width: 20%;
+    /* height: 50%; */
+    margin: 0px 0px 10px 100px;
+  }
+  .carousel-item div p {
+    font-size: 15px;
+  }
+  .tombol button {
+    margin-top: 340px;
+  }
+  .card-content{
+    flex-direction: column;
+  }
+  .card1{
+    margin-inline: 40px;
+    margin-top: 50px;
+  }
+  #appointment{
+    padding: 70px 40px 30px 40px;
+  }
+  .appointment{
+    flex-direction: column;
+    
+  }
+  .appointment div{
+    width: 100%;
+  }
+  .text-area{
+    width: 100%;
+  }
+  .subcribe{
+    height: 280px;
+  }
+  .subcribe img:nth-child(2){
+    height: 160px;
+  }
+  .isi-subcribe{
+    width: 100%;
+    height: 100%;
+    padding: 30px 30px 0px 30px;
+  }
+  .isi-subcribe div{
+    margin-top: 50px;
+    height: 65px; 
+    border-radius: 10px;
+  }
+  .isi-subcribe div p{
+    padding: 18px;
+  }
+  footer{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(34, 40, 72, 1);
+  }
+  .footer{
+    flex-direction: column;
+    padding: 35px;
+    
+  }
+  .isi-footer{
+    margin: 30px 0px 0px 5px;
+  }
+  
+  .isi-footer p:hover{
+    color: var(--color1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .social-media i{
+    border-radius: 100%;
+    background-color: white;
+    color: rgba(34, 40, 72, 1);
+  }
+  .social-media i:hover{
+    background-color: var(--color1);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  footer .line-footer{
+    width: 100%;
+    height: 5px;
+  }
+  
+}
