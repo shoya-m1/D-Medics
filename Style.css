@@ -6,16 +6,13 @@
 
 body {
   background-color: blue;
- 
 }
 main {
   max-width: 1367px;
   overflow: hidden;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 /* perbaikan */
 
@@ -41,16 +38,15 @@ main {
   border-radius: 10px;
   border: solid 2px var(--color1);
   margin: 0px 10px;
- 
 }
-.login2{
+.login2 {
   width: 200px;
   height: 37px;
   color: white;
   border-radius: 10px;
   border: none;
 }
-.login:hover{
+.login:hover {
   color: white;
   background: var(--color2);
 }
@@ -60,15 +56,13 @@ header {
   overflow: hidden;
   /* background-color: red;  */
 }
-.sign-up:hover{
+.sign-up:hover {
   cursor: pointer;
 }
-.collapse div a{
-  width: 100px;
-  margin: auto;
-
+.collapsje div a {
+  
 }
-.navbar-nav a:hover{
+.navbar-nav a:hover {
   font-weight: 700;
 }
 .gelombang {
@@ -87,7 +81,7 @@ header {
   top: 20px;
   height: 650px;
   rotate: 1deg;
-  z-index: -10;
+z-index: -10; 
 }
 header span {
   width: 50%;
@@ -114,7 +108,7 @@ header span {
   width: 582px;
   margin-top: 100px;
   margin-left: 80px;
-  
+
   z-index: 5;
 }
 .content b {
@@ -148,14 +142,13 @@ header span {
   height: 800px;
   z-index: -1;
 }
-.book a{
+.book a {
   background-color: var(--color1);
   padding: 15px 17px;
   font-size: 15px;
   font-weight: 600px;
   border-radius: 10px;
   text-decoration: none;
-  
 }
 .follow {
   margin: 130px 0px 0px 200px;
@@ -222,7 +215,7 @@ header span {
   font-weight: 600;
   border-radius: 10px;
 }
-.service{
+.service {
   padding-top: 80px;
 }
 .isi-service div {
@@ -242,10 +235,12 @@ header span {
   /* margin-left: 25px; */
   margin-bottom: 25px;
 }
-.card-1, .card-4{
+.card-1,
+.card-4 {
   margin-left: 25px;
 }
-.card-3, .card-6{
+.card-3,
+.card-6 {
   margin-right: 25px;
 }
 
@@ -354,96 +349,94 @@ header span {
   /* position: absolute; */
   margin-top: 430px;
 }
-.blog{
-  padding-top:70px;
+.blog {
+  padding-top: 70px;
 }
-.card1 p{
+.card1 p {
   text-align: justify;
 }
-.card1 b{
+.card1 b {
   font-size: 18px;
 }
-#appointment{
+#appointment {
   padding: 70px 70px 30px 70px;
 }
-.appointment div input{
+.appointment div input {
   outline: none;
   border: none;
 }
-.text-area{
+.text-area {
   width: 85%;
 }
-.text-area textarea{
-  padding:10px 0px 150px 15px ;
+.text-area textarea {
+  padding: 10px 0px 150px 15px;
 }
-.submit button{
+.submit button {
   border-radius: 10px;
   background-color: var(--color1);
 }
-.subcribe{
+.subcribe {
   background: url(Asset/bgsubcribe.png);
   height: 300px;
   width: 100%;
 }
-.subcribe img:nth-child(2){
+.subcribe img:nth-child(2) {
   right: 0;
   height: 300px;
-  
 }
-.subcribe button{
+.subcribe button {
   border-radius: 10px;
   background-color: var(--color1);
 }
-.isi-subcribe div{
+.isi-subcribe div {
   margin-top: 20px;
-  height: 70px; 
+  height: 70px;
   border-radius: 10px;
 }
-.isi-subcribe div p{
+.isi-subcribe div p {
   padding: 20px;
 }
-.isi-subcribe{
+.isi-subcribe {
   width: 700px;
   z-index: 10;
   padding: 50px 0px 0px 80px;
 }
-footer{
+footer {
   height: 430px;
   width: 100%;
   background-color: rgba(34, 40, 72, 1);
 }
-.footer{
-  padding:80px 0px 0px 85px;
+.footer {
+  padding: 80px 0px 0px 85px;
 }
-.isi-footer{
+.isi-footer {
   margin: 30px 0px 0px 30px;
 }
-.footer1{
+.footer1 {
   width: 313px;
 }
-.isi-footer p{
+.isi-footer p {
   margin-bottom: 12px;
   width: 196px;
 }
-.isi-footer p:hover{
+.isi-footer p:hover {
   color: var(--color1);
   transition: 0.3s;
   cursor: pointer;
 }
-.social-media i{
+.social-media i {
   border-radius: 100%;
   background-color: white;
   color: rgba(34, 40, 72, 1);
 }
-.social-media i:hover{
+.social-media i:hover {
   background-color: var(--color1);
   color: white;
   transition: 0.3s;
   cursor: pointer;
 }
-footer .line-footer{
+footer .line-footer {
   width: 100%;
   margin-top: 40px;
   height: 5px;
 }
-
