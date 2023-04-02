@@ -6,28 +6,17 @@
 
 body {
   background-color: blue;
+ 
 }
 main {
   max-width: 1367px;
   overflow: hidden;
-  /* background-color: blue; */
-  /* height: 300vh; */
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-  background-color: white;
-}
-.tombol-navbar {
-  display: none;
-}
-.style {
-  /* z-index: 1; */
-}
-.container button {
-  outline: none;
-  background-color: white;
-}
+
+
 /* perbaikan */
 
 .nav-link {
@@ -45,13 +34,14 @@ main {
   margin: 10px 10px;
 }
 .login {
-  width: 100px;
+  width: 115px;
   height: 37px;
   color: var(--color1);
   font-size: 13px;
   border-radius: 10px;
   border: solid 2px var(--color1);
-  margin: 0px 5px;
+  margin: 0px 10px;
+ 
 }
 .login2{
   width: 200px;

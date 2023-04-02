@@ -10,7 +10,8 @@
 
     <!-- link responsive -->
     <link rel="stylesheet" href="responsive.css" />
-    <!-- iocn -->
+    
+    <!-- icon -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -18,15 +19,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- ison -->
+    <!-- /ison -->
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- /font -->
+    
     <!-- Animasi Aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- /Animasi Aos -->
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   
     <title>D'Medic</title>
   </head>
   <body class="bg-blue">
@@ -41,91 +48,93 @@
         </div>
 
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg px-5">
+        <nav class="navbar navbar-expand-lg bg-light">
           <div class="container">
             <a class="fw-bolder navbar-brand text-primary" href="#">D'MEDICS</a>
-            <button class="tombol-navbar navbar-toggl.er border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="tombol-navbar bg-light border-0 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fa-solid fa-bars text-primary fs-4"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ms-auto">
+              <div class="navbar-nav ms-auto float-start">
                 <a class="nav-link active fw-bold text-primary" aria-current="page" href="#">Home</a>
                 <a class="nav-link text-primary" href="#about">About</a>
                 <a class="nav-link text-primary" href="#service">Service</a>
                 <a class="nav-link text-primary" href="#blog">Blog</a>
-              </div>
 
-              <div>
-                <button class="contact border-0 fw-bold text-white">Contact</button>
-                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="fw-bold m-auto modal-title text-primary" id="exampleModalToggleLabel">D'Medics</h5>
-                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-                      </div>
-                      <form>
-                        <div class="m-auto col-10 mt-3 form-group">
-                          <input type="email" class="form-control py-2" id="email" placeholder="Email" />
+                <div class="d-flex d-lg-inline flex-column">
+                  <button class="contact border-0 fw-bold text-white">Contact</button>
+                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="fw-bold m-auto modal-title text-primary" id="exampleModalToggleLabel">D'Medics</h5>
+                          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
                         </div>
-                        <div class="m-auto form-group col-10 my-3">
-                          <input type="password" class="form-control py-2" id="password" placeholder="Password" />
-                          <div class="form-group mt-2 form-check">
-                            <input type="checkbox" class="form-check-input" id="rememberMe">
-                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        <form>
+                          <div class="m-auto col-10 mt-3 form-group">
+                            <input type="email" class="form-control py-2" id="email" placeholder="Email" />
                           </div>
+                          <div class="m-auto form-group col-10 my-3">
+                            <input type="password" class="form-control py-2" id="password" placeholder="Password" />
+                            <div class="form-group mt-2 form-check">
+                              <input type="checkbox" class="form-check-input" id="rememberMe">
+                              <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                          </div>
+                          <!-- Login -->
+                          <div class="form-group text-center mx-5 ">
+                            <button id="login-btn" type="submit" class="login2 bg-primary">Login</button>
+                          </div>
+                        </form>
+                        <!-- sign -->
+                        <div class="card-footer text-center mt-2 py-3">
+                          Don't have an account? 
+                          <a class="sign-up ms-1" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</a>
                         </div>
-                        <!-- Login -->
-                        <div class="form-group text-center">
-                          <button id="login-btn" type="submit" class="login2 bg-primary">Login</button>
+                        <!-- Notifikasi password salah -->
+                        <div id="notif" class="alert alert-danger mt-3" style="display: none">Password yang Anda masukkan salah. Silakan coba lagi.
                         </div>
-                      </form>
-                      <!-- sign -->
-                      <div class="card-footer text-center mt-2 py-3">
-                        Don't have an account? 
-                        <a class="sign-up ms-1" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</a>
                       </div>
-                      <!-- Notifikasi password salah -->
-                      <div id="notif" class="alert alert-danger mt-3" style="display: none">Password yang Anda masukkan salah. Silakan coba lagi.
+                    </div>
+                   </div>
+  
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="fw-bold m-auto modal-title text-primary" id="exampleModalToggleLabel">D'Medics</h5>
+                        </div>
+                        <form>
+                          <div class="m-auto col-10 mt-3 form-group">
+                            <input type="username" class="form-control py-2" id="username" placeholder="Username" />
+                          </div>
+                          <div class="m-auto col-10 mt-3 form-group">
+                            <input type="email" class="form-control py-2" id="email" placeholder="Email" />
+                          </div>
+                          <div class="m-auto form-group col-10 my-3">
+                            <input type="password" class="form-control py-2" id="password" placeholder="Password" />
+                            <div class="form-group mt-2 form-check">
+                              <input type="checkbox" class="form-check-input" id="rememberMe">
+                              <label class="form-check-label" for="rememberMe">Remember me</label>
+                            </div>
+                          </div>
+                          <div class="form-group text-center">
+                            <button id="login-btn" type="submit" class="login2 bg-primary">Sign</button>
+                          </div>
+                        </form>
+                        <div class="card-footer text-center mt-2 py-3">
+                          Don't have an account? 
+                          <a class="sign-up ms-1" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Login</a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                 </div>
-
-                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h4 class="fw-bold m-auto modal-title text-primary" id="exampleModalToggleLabel">D'Medics</h5>
-                      </div>
-                      <form>
-                        <div class="m-auto col-10 mt-3 form-group">
-                          <input type="username" class="form-control py-2" id="username" placeholder="Username" />
-                        </div>
-                        <div class="m-auto col-10 mt-3 form-group">
-                          <input type="email" class="form-control py-2" id="email" placeholder="Email" />
-                        </div>
-                        <div class="m-auto form-group col-10 my-3">
-                          <input type="password" class="form-control py-2" id="password" placeholder="Password" />
-                          <div class="form-group mt-2 form-check">
-                            <input type="checkbox" class="form-check-input" id="rememberMe">
-                            <label class="form-check-label" for="rememberMe">Remember me</label>
-                          </div>
-                        </div>
-                        <div class="form-group text-center">
-                          <button id="login-btn" type="submit" class="login2 bg-primary">Sign</button>
-                        </div>
-                      </form>
-                      <div class="card-footer text-center mt-2 py-3">
-                        Don't have an account? 
-                        <a class="sign-up ms-1" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Login</a>
-                      </div>
-                    </div>
-                  </div>
+                  <button class="login bg-light fw-medium" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Login</button>
                 </div>
-                <button class="login" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Login</button>
               </div>
+
+            
             </div>
           </div>
         </nav>
